@@ -1,0 +1,13 @@
+--- xtp-5.4.3/configure.in.orig	2002-02-01 05:12:48.000000000 +0100
++++ xtp-5.4.3/configure.in	2003-07-20 23:07:23.000000000 +0200
+@@ -192,8 +192,8 @@
+ DEFS=''
+ FTP='ftp'
+ 
+-AC_CHECK_LIB(socket,socket,LIBS="-lsocket $LIBS",,)
+-AC_CHECK_LIB(nsl,gethostbyname,LIBS="-lnsl $LIBS",,)
++AC_SEARCH_LIBS(socket, socket)
++AC_SEARCH_LIBS(gethostbyname, nsl)
+ # If profiling, then check for -ldl and dlopen (required for Solaris & gcc)
+ if test "$with_profiling" = 'yes'
+ then
