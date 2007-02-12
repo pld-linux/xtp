@@ -1,5 +1,5 @@
 Summary:	xtp - file transfer program
-Summary(pl):	xtp - program do przesy³ania plików
+Summary(pl.UTF-8):   xtp - program do przesyÅ‚ania plikÃ³w
 Name:		xtp
 Version:	5.4.3
 Release:	1
@@ -20,12 +20,12 @@ not require any interactive commands. You simply specify the file
 transfer task on the command line and xtp performs the task
 automatically.
 
-%description -l pl
-xtp to narzêdzie do pobierania, listowania lub wypisywania plików ze
-zdalnych komputerów w sieci oraz do wysy³ania plików na zdalne
-komputery. xtp wykonuje wiêkszo¶æ funkcji programu ftp(1), ale nie
-wymaga ¿adnych interaktywnych poleceñ. Po prostu z linii poleceñ
-podaje siê zadanie przes³ania pliku, a xtp wykonuje je automatycznie.
+%description -l pl.UTF-8
+xtp to narzÄ™dzie do pobierania, listowania lub wypisywania plikÃ³w ze
+zdalnych komputerÃ³w w sieci oraz do wysyÅ‚ania plikÃ³w na zdalne
+komputery. xtp wykonuje wiÄ™kszoÅ›Ä‡ funkcji programu ftp(1), ale nie
+wymaga Å¼adnych interaktywnych poleceÅ„. Po prostu z linii poleceÅ„
+podaje siÄ™ zadanie przesÅ‚ania pliku, a xtp wykonuje je automatycznie.
 
 %prep
 %setup -q
