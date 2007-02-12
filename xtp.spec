@@ -1,5 +1,5 @@
 Summary:	xtp - file transfer program
-Summary(pl.UTF-8):   xtp - program do przesyłania plików
+Summary(pl.UTF-8):	xtp - program do przesyłania plików
 Name:		xtp
 Version:	5.4.3
 Release:	1
